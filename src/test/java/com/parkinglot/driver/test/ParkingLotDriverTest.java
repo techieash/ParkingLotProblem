@@ -11,12 +11,8 @@ public class ParkingLotDriverTest {
 
 	
 	@Test
-	public void givenFileNameThenDoNormalMode() throws Exception {
+	public void givenFileNameThenFindParkingSlots() throws Exception {
 		ParkingLotDriver.main(new String[] {"file_inputs.txt"});
 	}
 	
-	@Test
-	public void givenNothingThenDoInteractiveMode() throws Exception {
-		ParkingLotDriver.main(new String[] {});
-	}
 }
